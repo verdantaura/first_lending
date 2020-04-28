@@ -1,0 +1,214 @@
+﻿body {
+    width: 1219px;
+    margin-right: 55px;
+    margin-left: 55px;
+}
+
+#PiedPiperCoin:before {
+    display: block;
+    content: "";
+    height: 80px;
+    margin: -80px 0 0;
+}
+
+#the_team:before {
+    display: block;
+    content: "";
+    height: 80px;
+    margin: -80px 0 0;
+}
+
+#the_problem:before {
+    display: block;
+    content: "";
+    height: 80px;
+    margin: -80px 0 0;
+}
+
+.header {
+    min-width: 1219px;
+    max-width: 1219px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #007765;
+    padding: 20px 0 19px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 55px;
+}
+
+.header_left {
+    margin-left: 55px;
+}
+.header_right {
+    margin-left: 580px;
+}
+
+.header_right, a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+}    
+
+
+.PiperNetIsHere {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.containerPiperNet {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.messagePiperNet {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #fff;
+}
+
+.the_problem {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 0 92px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.the_problem_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url("image-1.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero_message {
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.introducing {
+    padding: 48px 0 92px;
+}
+
+.introducing p {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+
+color: #000000;
+}
+
+.introducing img {
+    float: left;
+    margin-left: 55px;
+}
+
+.first {
+    margin-left: 163px;
+}
+
+.the_team {
+    background-color: #EEEEEE;
+    padding: 48px 0 122px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.person {
+	text-align: center;
+	display: inline-block;
+    flex-basis: 25%;
+}
+
+.name {
+    font-family: Roboto;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+    color: #007765;
+    padding-bottom: 82px;
+	
+}
+
+.profession {
+    font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.footer {
+    background: #333333;
+    padding: 48px 0 64px;
+}
+
+
+
+.footer p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    max-width: 540px;
+
+}
